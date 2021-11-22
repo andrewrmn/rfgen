@@ -1,0 +1,228 @@
+// ---------------------------------------------------------------------
+//  Hero
+// ---------------------------------------------------------------------
+
+.hero {
+  position: relative;
+  z-index: 1;
+  background: $brand-dark;
+  color: $white;
+  padding: 64px 0;
+  border-top: 1px solid $brand;
+  min-height: 472px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .hero__content {
+    max-width: 708px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  p {
+    font-size: 16px;
+
+    @include start-at($large) {
+      font-size: 18px;
+    }
+  }
+}
+
+@include start-at($large) {
+  .hero--left-content {
+    .hero__content {
+      max-width: 50%;
+      margin: 0;
+    }
+
+    .rte h1 {
+      font-size: 48px !important;
+    }
+  }
+}
+.hero__media {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+
+  &:after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba($brand-dark, 0.8);
+    z-index: 1;
+  }
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -2;
+  }
+}
+
+// ----------------------------------------
+// Hero Split
+// ----------------------------------------
+
+  .hero-split {
+    p {
+      font-size: 18px;
+    }
+  }
+
+// ----------------------------------------
+// Mobile styles
+// ----------------------------------------
+
+@include stop-at($large) {
+
+  .hero-split {
+    .container {
+      padding: 0;
+      max-width: 100%;
+    }
+  }
+  .hero-split__intro {
+    padding: 100px 24px;
+    background: $brand;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: $white;
+
+    @include start-at($small) {
+      padding-right: 48px;
+    }
+    @include start-at($medium) {
+      padding-right: 72px;
+    }
+    > * {
+      // position: relative;
+      // z-index: 2;
+    }
+
+    &:after {
+      content: '';
+      z-index: -1;
+      position: absolute;
+      bottom: 0;
+      right: 15%;
+      width: 150%;
+      height: 100%;
+      background: red;
+      transform: skew(25deg, 0);
+      background: $brand-dark;
+    }
+  }
+
+  .hero-split__bd {
+    background: $white;
+    padding: 44px 24px;
+  }
+
+  .hero-split__media {
+    display: none;
+  }
+}
+
+.hero-split.hero-split--white {
+  background: $white;
+  color: $brand-dark;
+
+  &:after {
+    background: $white;
+  }
+
+}
+
+
+// ----------------------------------------
+// Large styles
+// ----------------------------------------
+
+@include start-at($large) {
+  .hero-split {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    background: $brand;
+    color: $white;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+    .hero-split__intro {
+      margin-bottom: 24px;
+    }
+
+    &:after {
+      content: '';
+      z-index: 2;
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 80%;
+      overflow: hidden;
+      background: $brand;
+      transform: skew(25deg, 0);
+
+      @include start-at($xlarge) {
+        width: 70%;
+      }
+
+      @include start-at(1440px) {
+        width: 60%;
+      }
+    }
+
+    @include start-at($medium) {
+      padding: 66px 0;
+      min-height: 512px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+
+  }
+
+  .hero-split__content {
+    max-width: 708px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-split__media {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+
+    @include stop-at($large) {
+      display: none;
+    }
+  }
+}

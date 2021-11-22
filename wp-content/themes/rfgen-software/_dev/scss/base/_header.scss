@@ -1,0 +1,181 @@
+// ---------------------------------------------------------------------
+//  Index
+// ---------------------------------------------------------------------
+
+
+body,
+input,
+button,
+select,
+textarea {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+
+
+#page {
+    padding-top: 75px;
+
+    @include start-at($large) {
+      padding-top: 56px;
+    }
+}
+
+@include start-at($large) {
+
+  .site-header {
+    .container {
+      max-width: 100%;
+      padding: 0 0 0 48px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+    }
+
+    .site-logo {
+      padding: 0 !important;
+      margin-right: 24px;
+      transform: translate3d(0, 2px, 0);
+    }
+  }
+
+  .pre-header {
+    display: none !important;
+  }
+
+  .main-nav {
+    flex-grow: 1;
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+
+    }
+  }
+
+  .main-nav .menu > li > a {
+    padding: 17px 24px;
+  }
+
+  .desktop-util-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .action {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    padding: 0 !important;
+
+    li {
+      line-height: 1;
+
+      a {
+        color: $white;
+        font-size: 14px;
+        font-weight: 500;
+
+        &:hover {
+          color: $accent;
+        }
+      }
+    }
+
+    li:not(.btn) {
+
+
+      + li {
+        margin-left: 28px;
+      }
+    }
+
+    li.hd-btn {
+      position: relative;
+      height: 100%;
+
+
+      a {
+        padding: 0 36px;
+        height: 56px;
+        font-weight: 600;
+        border-radius: 0;
+        display: flex;
+        background: $accent;
+        color: $brand;
+        align-items: center;
+        justify-content: center;
+
+        @include start-at($xlarge) {
+          min-width: 200px;
+        }
+
+        &:hover {
+          svg {
+            transform: translate3d(4px, 0, 0);
+          }
+        }
+
+        svg {
+          margin-left: 4px;
+          transition: transform $trans;
+        }
+      }
+    }
+  }
+}
+
+
+// ----------------------------------------
+//
+// ----------------------------------------
+
+
+
+// ----------------------------------------
+// Logged in
+// ----------------------------------------
+
+body.logged-in.admin-bar {
+
+  #wpadminbar {
+    position: fixed;
+
+    #wp-admin-bar-search {
+      display: none !important;
+    }
+
+    input[type="submit"] {
+      border: none !important;
+      background: transparent !important;
+      text-align: left !important;
+    }
+  }
+
+  .site-header {
+    top: 46px;
+  }
+
+  .navigation-drawer {
+    top: 112px;
+  }
+
+  @include start-at(783px) {
+    .site-header {
+      top: 32px;
+    }
+
+    .navigation-drawer {
+      top: 98px;
+    }
+
+    .page-navigation {
+      top: 88px !important;
+    }
+  }
+}

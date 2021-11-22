@@ -1,0 +1,88 @@
+// ---------------------------------------------------------------------
+//  Index
+// ---------------------------------------------------------------------
+
+.h1,
+.rte h1 {
+  display: block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px !important;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+
+  @include start-at($medium) {
+    font-size: 60px !important;
+  }
+}
+
+.h2,
+.rte h2 {
+  display: block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px !important;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+
+  @include start-at($medium) {
+    font-size: 32px !important;
+  }
+}
+
+.h3,
+.rte h3 {
+  display: block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px !important;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+
+  @include start-at($medium) {
+    font-size: 24px !important;
+  }
+}
+
+.h3,
+.rte h3 {
+  display: block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px !important;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+
+  @include start-at($medium) {
+    font-size: 24px !important;
+  }
+}
+
+
+
+.rte .h5,
+.rte h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.rte .sub-heading,
+.rte h6,
+.rte .h6,
+.h6,
+.sub-heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 150%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+// ----------------------------------------
+//
+// ----------------------------------------

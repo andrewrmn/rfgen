@@ -1,0 +1,6 @@
+.siteorigin-widget-input.danger-zone {
+  color: #AAAAAA;
+}
+.siteorigin-widget-input.danger-zone:focus {
+  outline: red auto;
+}

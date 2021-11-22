@@ -1,0 +1,596 @@
+// ---------------------------------------------------------------------
+//  One Offs
+// ---------------------------------------------------------------------
+
+.lp-form-wrap-pull {
+  background: $brand;
+  border-top: 4px solid $accent;
+  width: 100%;
+  padding: 24px 18px;
+
+  img {
+    margin-bottom: 36px;
+  }
+
+  iframe {
+    width: 100%;
+    display: block;
+  }
+
+  @include start-at($large) {
+    margin-top: -434px;
+    padding: 34px 40px;
+    width: 94%;
+    max-width: 492px;
+    margin-left: auto;
+  }
+
+  form {
+    background: #16213F;
+    border: none;
+  }
+
+  input {
+    padding: 0 16px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 500;
+    background: #16213F;
+    color: #ffffff;
+    border-radius: 0;
+    border: 1px solid #ffffff;
+    transition: border-color 0.4s ease;
+  }
+
+  input:focus {
+    border-color: #51D87D;
+  }
+
+  label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+  }
+
+  input[type="submit"],
+  button {
+    border-radius: 50px;
+  }
+}
+
+
+// ----------------------------------------
+// solutions-tiles
+// ----------------------------------------
+
+.solutions-tiles {
+
+  @include start-at($xlarge) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: flex-start;
+  }
+
+  > * {
+    width: 100%;
+    min-height: 108px;
+
+    @include start-at($xlarge) {
+      width: calc(100% / 3);
+      min-height: 160px;
+    }
+  }
+}
+
+.solutions-tiles__tile {
+  display: flex;
+  align-items: flex-end;
+  background: rgba(#16213F, 0.6);
+  position: relative;
+  border-bottom: 1px solid $brand-dark;
+  border-right: 1px solid $brand-dark;
+  padding: 30px 40px 24px 24px;
+  color: $white;
+  transition: background $trans;
+
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: $white;
+    margin-bottom: 8px;
+  }
+
+  span {
+    display: block;
+    font-size: 13px;
+    color: $white;
+
+    @include start-at($xlarge) {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease-out;
+    }
+  }
+
+  svg {
+    position: absolute;
+    bottom: 24px;
+    right: 12px;
+
+    transition: opacity $trans, transform $trans;
+
+    @include start-at($xlarge) {
+      opacity: 0;
+      transform: translate3d(-4px, 0, 0);
+    }
+  }
+
+  &:hover {
+    background: rgba(#16213F, 1);
+
+    svg {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+
+    @include start-at($xlarge) {
+      span {
+        max-height: 60px;
+      }
+    }
+  }
+}
+
+.solutions-tiles__tile.solutions-tiles__tile--show {
+  padding: 50px 40px 50px 24px;
+
+  svg {
+    opacity: 1;
+    bottom: auto;
+    top: 48px;
+  }
+
+  span {
+    opacity: 1;
+    @include start-at($xlarge) {
+      max-height: 100% !important;
+    }
+  }
+
+  &:hover {
+    @include start-at($xlarge) {
+      span {
+        max-height: 100%;
+      }
+    }
+  }
+}
+
+// ----------------------------------------
+// testimonial
+// ----------------------------------------
+
+.testimonial {
+  position: relative;
+  max-width: 816px;
+  margin: 0 auto;
+
+  &:before {
+    display: block;
+    content: '';
+    width: 42px;
+    height: 31px;
+    background: url('./images/svgs/quote.svg') center / cover no-repeat;
+    margin-bottom: 24px;
+
+
+    @include start-at($medium) {
+      position: absolute;
+      top: 0;
+      left: -48px;
+      transform: translate3d(-48px, 0, 0);
+    }
+    @include start-at($xlarge) {
+      transform: translate3d(-72px, -8px, 0);
+    }
+  }
+
+  q {
+    font-family: IBM Plex Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #020D2B;
+
+    &:before, &:after {
+      display: none;
+    }
+
+    @include start-at($medium) {
+      font-size: 24px;
+    }
+  }
+
+  cite {
+    display: block;
+    margin-top: 36px;
+    font-size: 16px;
+    font-style: normal;
+    border-left: 2px solid $accent;
+    padding-left: 12px;
+  }
+
+  p {
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+
+  span {
+
+  }
+}
+
+// ----------------------------------------
+//
+// ----------------------------------------
+
+.stat-list {
+
+  > * {
+    margin-bottom: 36px;
+  }
+
+  @include start-at($medium) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    > * {
+      width: calc(50% - 16px);
+      margin-right: 16px;
+    }
+  }
+
+  @include start-at($xlarge) {
+
+    > * {
+      width: auto;
+      //flex-grow: 1;
+      // flex-basis: 0;
+      max-width: calc(25% - 16px) !important;
+    }
+  }
+}
+
+.count-wrap {
+  .count__num {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px !important;
+    line-height: 100%;
+    font-feature-settings: 'zero' on;
+    color: #51D87D;
+    padding-bottom: 24px;
+    position: relative;
+
+    &:before {
+      content: '';
+      width: 100%;
+      height: 1px;
+      background: $accent;
+      position: absolute;
+      bottom: 6px;
+      left: 20px;
+      width: calc(100% - 20px);
+
+    }
+    &:after {
+      content: '';
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      border: 1px solid $accent;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
+
+
+// ----------------------------------------
+//
+// ----------------------------------------
+
+.rte.rte--checklist ul,
+.checklist {
+
+	li {
+    display: flex;
+    align-items: baseline;
+		width: 100%;
+		margin-bottom: 8px;
+
+		&:before {
+			content: '';
+			width: 14px;
+      height: 11px;
+      display: block;
+      background: url('./images/svgs/check.svg') center / cover no-repeat;
+      transform: translate3d(0, -1px, 0);
+      margin-right: 12px;
+		}
+	}
+}
+
+// ----------------------------------------
+//
+// ----------------------------------------
+
+.logo-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  list-style-type: none;
+  width: 100%;
+  background: $white;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+
+  @include start-at($xlarge) {
+    flex-wrap: nowrap;
+  }
+
+  li {
+    width: calc(100%  / 3);
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid $gray-light;
+    margin: 0;
+    padding: 0;
+    border-left: 2px solid $gray-light;
+
+    @include start-at($xlarge) {
+      flex-grow: 1;
+      flex-basis: 0;
+      border-bottom: 0;
+      border-left: 0;
+
+      + li {
+        border-left: 2px solid $gray-light;
+      }
+    }
+  }
+
+  a {
+    display: block;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  img {
+    max-width: 94%;
+    max-height: 84px;
+  }
+}
+
+
+// ----------------------------------------
+//
+// ----------------------------------------
+
+@include start-at(1600px) {
+  .d-xxlg-flex {
+    display: flex;
+  }
+}
+
+
+// ----------------------------------------
+//
+// ----------------------------------------
+
+.js-page-section {
+  overflow: hidden;
+}
+
+@include stop-at($small) {
+
+  .container-flush-right-sm {
+    max-width: 100%;
+    padding-right: 0;
+  }
+
+  .container-flush-sm  {
+    max-width: 100%;
+    padding: 0;
+  }
+  .container-sm  {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  .row-scroll-wrap {
+    overflow: scroll;
+    padding-bottom: 24px;
+  }
+  .row--scroll {
+    min-width: 312px * 3;
+    width: 312px * 3;
+    max-width: 312px * 3;
+    overflow-x: scroll;
+  }
+}
+
+.row-scroll-wrap--all {
+  overflow: scroll;
+  padding-bottom: 24px;
+
+  .row--scroll {
+    min-width: 312px * 3;
+    width: 312px * 3;
+    max-width: 312px * 3;
+    overflow-x: scroll;
+    display: flex;
+
+    > * {
+      display: flex;
+      min-width: 312px * 5;
+      width: 312px * 5;
+      max-width: 312px * 5;
+    }
+  }
+
+  .row-scroll-item {
+    width: 292px;
+    min-width: 292px;
+    margin-right: 36px;
+  }
+}
+
+
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  -ms-overflow-style: none;
+  padding-bottom: 24px;
+
+  // &::-webkit-scrollbar {
+	// //	display: block;
+	// 	height: 1px;
+	// 	background: $border;
+	// }
+	// &::-webkit-scrollbar-track {
+	//   background: $white;
+	// }
+	// &::-webkit-scrollbar-thumb {
+	//   background: $accent;
+	// }
+
+  .bg-brand & {
+    // &::-webkit-scrollbar-track {
+  	//   background: $brand-dark;
+  	// }
+  }
+}
+
+.scroll-container__inner {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  overflow-x: auto;
+  display: flex;
+}
+
+.scroll-container__item {
+  width: 292px;
+  min-width: 292px;
+  margin-right: 36px;
+}
+
+
+
+// ----------------------------------------
+//
+// ----------------------------------------
+
+.media-object {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  &.media-object--center {
+    align-items: center;
+  }
+
+  + .media-object {
+    margin-top: 62px;
+  }
+
+  @include start-at($medium) {
+    flex-wrap: nowrap;
+  }
+}
+
+.media-object__content {
+  order: 2;
+
+  @include start-at($medium) {
+    order: 2;
+    width: calc(60% - 20px);
+  }
+}
+
+.media-object__media {
+  order: 1;
+  margin-bottom: 20px;
+
+  img {
+    width: 100%;
+  }
+
+  @include stop-at($medium) {
+    overflow: hidden;
+    position: relative;
+    height: 360px;
+    width: 100%;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  @include start-at($medium) {
+    order: 1;
+    width: calc(40% - 20px);
+    margin-bottom: 0;
+  }
+}
+
+.media-object--flip {
+  @include start-at($medium) {
+    .media-object__content {
+      order: 1;
+    }
+    .media-object__media {
+      order: 2;
+    }
+  }
+}
+
+.media-object--split {
+  .media-object__content {
+    @include start-at($medium) {
+      width: calc(50% - 20px);
+    }
+  }
+
+  .media-object__media {
+    @include start-at($medium) {
+      width: calc(50% - 20px);
+    }
+  }
+}
+
+
+// ----------------------------------------
+//
+// ----------------------------------------
+
+.lp-alert {
+  background: $orange;
+}

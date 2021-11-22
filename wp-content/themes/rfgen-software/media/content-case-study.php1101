@@ -1,0 +1,63 @@
+<?php
+/*
+ * Case Study Content
+ */
+?>
+<?php while (have_posts()) : the_post(); ?>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6 align-self-center">
+                    <div class="case-company-logo full-img">
+                        <?php
+                        $image = get_field('company_logo');
+                        $size = 'full'; // (thumbnail, medium, large, full or custom size)
+                        if ($image) {
+                            echo wp_get_attachment_image($image, $size);
+                        }
+                        ?>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 align-self-center">
+                    <?php echo get_field('intro_content'); ?>
+                </div>
+                <div class="col-lg-8 col-md-7 mt-4">
+                    <?php the_content(); ?>
+                </div>
+                <?php if (have_rows('right_section_content')): ?>
+                    <div class="col-lg-4 col-md-5 mt-4 case-widget-col">
+                        <?php while (have_rows('right_section_content')): the_row(); ?>
+                            <div class="case-widget">
+                                <?php the_sub_field('content'); ?>  
+                            </div>
+                        <?php endwhile; ?>
+                    </div>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
+    <?php if (have_rows('testimonials')): ?>
+        <div class="page-testimonial section" style="background-image:url(<?php echo get_field('testimonial_bg'); ?>);">
+            <div class="container">
+                <div class="testi-carousel">
+                    <div class="owl-carousel owl-theme CarouselOwl-1">
+                        <?php while (have_rows('testimonials')): the_row(); ?>
+                            <div class="item">
+                                <div class="media">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/quote.png" alt="" class="mr-3">
+                                    <div class="media-body">
+                                        <blockquote><?php the_sub_field('quote'); ?></blockquote>
+                                        <cite>
+                                            <strong><?php the_sub_field('client'); ?></strong>
+                                            <?php the_sub_field('company'); ?>
+                                        </cite>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endwhile; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <?php endif; ?>
+<?php endwhile; ?>

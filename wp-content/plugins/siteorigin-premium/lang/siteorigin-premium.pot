@@ -1,0 +1,2537 @@
+# Copyright (C) 2021 siteorigin-premium
+# This file is distributed under the same license as the siteorigin-premium package.
+msgid ""
+msgstr ""
+"Project-Id-Version: siteorigin-premium\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: SiteOrigin <support@siteorigin.com>\n"
+"Last-Translator: SiteOrigin <support@siteorigin.com>\n"
+"Report-Msgid-Bugs-To: http://www.siteorigin.com/thread\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: functions.php:12
+msgid "<strong>Warning</strong>: You're trying to use <strong>SiteOrigin Premium</strong> as a theme. You need to deactivate it and reinstall it as a plugin. Please reactivate the theme you were using previously."
+msgstr ""
+
+#: functions.php:13
+msgid "Read More"
+msgstr ""
+
+#: siteorigin-premium.php:3
+msgid "SiteOrigin Premium"
+msgstr ""
+
+#: siteorigin-premium.php:4
+msgid "Advanced functionality for SiteOrigin themes and plugins."
+msgstr ""
+
+#: siteorigin-premium.php:9, admin/options.php:32, admin/options.php:33, addons/plugin/accordion/accordion.php:6, addons/plugin/animations/animations.php:6, addons/plugin/contact-form-fields/contact-form-fields.php:6, addons/plugin/cpt-builder/cpt-builder.php:6, addons/plugin/cta/cta.php:6, addons/plugin/hero/hero.php:6, addons/plugin/image-overlay/image-overlay.php:6, addons/plugin/lightbox/lightbox.php:6, addons/plugin/map-styles/map-styles.php:6, addons/plugin/mirror-widgets/mirror-widgets.php:6, addons/plugin/parallax-sliders/parallax-sliders.php:6, addons/plugin/social-widgets/social-widgets.php:6, addons/plugin/tabs/tabs.php:6, addons/plugin/testimonial/testimonial.php:6, addons/plugin/toggle-visibility/toggle-visibility.php:6, addons/plugin/tooltip/tooltip.php:6, addons/plugin/web-font-selector/web-font-selector.php:6, addons/plugin/woocommerce-templates/woocommerce-templates.php:6, addons/theme/ajax-comments/ajax-comments.php:6, addons/theme/no-attribution/no-attribution.php:6, addons/plugin/mirror-widgets/inc/mirror-widget/mirror-widget.php:5, addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:5
+msgid "SiteOrigin"
+msgstr ""
+
+#: siteorigin-premium.php:12, addons/plugin/accordion/accordion.php:7, addons/plugin/animations/animations.php:7, addons/plugin/contact-form-fields/contact-form-fields.php:7, addons/plugin/cpt-builder/cpt-builder.php:7, addons/plugin/cta/cta.php:7, addons/plugin/hero/hero.php:7, addons/plugin/image-overlay/image-overlay.php:7, addons/plugin/lightbox/lightbox.php:7, addons/plugin/map-styles/map-styles.php:7, addons/plugin/mirror-widgets/mirror-widgets.php:7, addons/plugin/parallax-sliders/parallax-sliders.php:7, addons/plugin/social-widgets/social-widgets.php:7, addons/plugin/tabs/tabs.php:7, addons/plugin/testimonial/testimonial.php:7, addons/plugin/toggle-visibility/toggle-visibility.php:7, addons/plugin/tooltip/tooltip.php:7, addons/plugin/web-font-selector/web-font-selector.php:7, addons/plugin/woocommerce-templates/woocommerce-templates.php:7, addons/theme/ajax-comments/ajax-comments.php:7, addons/theme/no-attribution/no-attribution.php:7, addons/plugin/mirror-widgets/inc/mirror-widget/mirror-widget.php:6, addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:6
+msgid "https://siteorigin.com"
+msgstr ""
+
+#: siteorigin-premium.php:13
+msgid "https://siteorigin.com/premium/"
+msgstr ""
+
+#: siteorigin-premium.php:185
+msgid "Plugin addon %s does not exist."
+msgstr ""
+
+#: siteorigin-premium.php:306
+msgid "Addons"
+msgstr ""
+
+#: siteorigin-premium.php:307
+msgid "License"
+msgstr ""
+
+#: admin/options.php:44, admin/options.php:45
+msgid "Premium Addons"
+msgstr ""
+
+#: admin/options.php:53, admin/options.php:54
+msgid "Premium License"
+msgstr ""
+
+#: admin/options.php:87
+msgid "Error loading form! Please try again later."
+msgstr ""
+
+#: admin/options.php:130
+msgid "There was a problem trying to activate your license."
+msgstr ""
+
+#: admin/options.php:136
+msgid "Your license couldn't be activated because the key is not valid."
+msgstr ""
+
+#: admin/options.php:142
+msgid "License could not be activated. It already in use on too many sites."
+msgstr ""
+
+#: admin/options.php:145
+msgid "Manage licenses on the <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">SiteOrigin Dashboard</a>."
+msgstr ""
+
+#: admin/options.php:153
+msgid "Your license has been activated."
+msgstr ""
+
+#: admin/options.php:376
+msgid "You're using SiteOrigin Premium in development mode. Add and activate your license key to change to production mode."
+msgstr ""
+
+#: admin/options.php:378
+msgid "Development mode uses slower raw files, but they're ideal when you're still developing a site."
+msgstr ""
+
+#: inc/admin-notices.php:57
+msgid "If you think this is a mistake, please %scontact support%s."
+msgstr ""
+
+#: inc/animation-types.php:4, addons/plugin/accordion/accordion.php:202, addons/plugin/contact-form-fields/contact-form-fields.php:214, addons/plugin/image-overlay/image-overlay.php:133, addons/plugin/image-overlay/image-overlay.php:196
+msgid "None"
+msgstr ""
+
+#: inc/animation-types.php:5
+msgid "Bounce"
+msgstr ""
+
+#: inc/animation-types.php:6
+msgid "Flash"
+msgstr ""
+
+#: inc/animation-types.php:7
+msgid "Pulse"
+msgstr ""
+
+#: inc/animation-types.php:8
+msgid "Rubber band"
+msgstr ""
+
+#: inc/animation-types.php:9
+msgid "Shake"
+msgstr ""
+
+#: inc/animation-types.php:10
+msgid "Headshake"
+msgstr ""
+
+#: inc/animation-types.php:11
+msgid "Swing"
+msgstr ""
+
+#: inc/animation-types.php:12
+msgid "Tada"
+msgstr ""
+
+#: inc/animation-types.php:13
+msgid "Wobble"
+msgstr ""
+
+#: inc/animation-types.php:14
+msgid "Jello"
+msgstr ""
+
+#: inc/animation-types.php:15
+msgid "Bounce in"
+msgstr ""
+
+#: inc/animation-types.php:16
+msgid "Bounce in down"
+msgstr ""
+
+#: inc/animation-types.php:17
+msgid "Bounce in left"
+msgstr ""
+
+#: inc/animation-types.php:18
+msgid "Bounce in right"
+msgstr ""
+
+#: inc/animation-types.php:19
+msgid "Bounce in up"
+msgstr ""
+
+#: inc/animation-types.php:20
+msgid "Bounce out"
+msgstr ""
+
+#: inc/animation-types.php:21
+msgid "Bounce out down"
+msgstr ""
+
+#: inc/animation-types.php:22
+msgid "Bounce out left"
+msgstr ""
+
+#: inc/animation-types.php:23
+msgid "Bounce out right"
+msgstr ""
+
+#: inc/animation-types.php:24
+msgid "Bounce out up"
+msgstr ""
+
+#: inc/animation-types.php:25
+msgid "Fade in"
+msgstr ""
+
+#: inc/animation-types.php:26
+msgid "Fade in down"
+msgstr ""
+
+#: inc/animation-types.php:27
+msgid "Fade in down big"
+msgstr ""
+
+#: inc/animation-types.php:28
+msgid "Fade in left"
+msgstr ""
+
+#: inc/animation-types.php:29
+msgid "Fade in left big"
+msgstr ""
+
+#: inc/animation-types.php:30
+msgid "Fade in right"
+msgstr ""
+
+#: inc/animation-types.php:31
+msgid "Fade in right big"
+msgstr ""
+
+#: inc/animation-types.php:32
+msgid "Fade in up"
+msgstr ""
+
+#: inc/animation-types.php:33
+msgid "Fade in up big"
+msgstr ""
+
+#: inc/animation-types.php:34
+msgid "Fade out"
+msgstr ""
+
+#: inc/animation-types.php:35
+msgid "Fade out down"
+msgstr ""
+
+#: inc/animation-types.php:36
+msgid "Fade out down big"
+msgstr ""
+
+#: inc/animation-types.php:37
+msgid "Fade out left"
+msgstr ""
+
+#: inc/animation-types.php:38
+msgid "Fade out left big"
+msgstr ""
+
+#: inc/animation-types.php:39
+msgid "Fade out right"
+msgstr ""
+
+#: inc/animation-types.php:40
+msgid "Fade out right big"
+msgstr ""
+
+#: inc/animation-types.php:41
+msgid "Fade out up"
+msgstr ""
+
+#: inc/animation-types.php:42
+msgid "Fade out up big"
+msgstr ""
+
+#: inc/animation-types.php:43
+msgid "Flip"
+msgstr ""
+
+#: inc/animation-types.php:44
+msgid "Flip in horizontal"
+msgstr ""
+
+#: inc/animation-types.php:45
+msgid "Flip in vertical"
+msgstr ""
+
+#: inc/animation-types.php:46
+msgid "Flip out horizontal"
+msgstr ""
+
+#: inc/animation-types.php:47
+msgid "Flip out vertical"
+msgstr ""
+
+#: inc/animation-types.php:48
+msgid "Light speed in"
+msgstr ""
+
+#: inc/animation-types.php:49
+msgid "Light speed out"
+msgstr ""
+
+#: inc/animation-types.php:50
+msgid "Rotate in"
+msgstr ""
+
+#: inc/animation-types.php:51
+msgid "Rotate in down left"
+msgstr ""
+
+#: inc/animation-types.php:52
+msgid "Rotate in down right"
+msgstr ""
+
+#: inc/animation-types.php:53
+msgid "Rotate in up left"
+msgstr ""
+
+#: inc/animation-types.php:54
+msgid "Rotate in up right"
+msgstr ""
+
+#: inc/animation-types.php:55
+msgid "Rotate out"
+msgstr ""
+
+#: inc/animation-types.php:56
+msgid "Rotate out down left"
+msgstr ""
+
+#: inc/animation-types.php:57
+msgid "Rotate out down right"
+msgstr ""
+
+#: inc/animation-types.php:58
+msgid "Rotate out up left"
+msgstr ""
+
+#: inc/animation-types.php:59
+msgid "Rotate out up right"
+msgstr ""
+
+#: inc/animation-types.php:60
+msgid "Slide in up"
+msgstr ""
+
+#: inc/animation-types.php:61
+msgid "Slide in down"
+msgstr ""
+
+#: inc/animation-types.php:62
+msgid "Slide in left"
+msgstr ""
+
+#: inc/animation-types.php:63
+msgid "Slide in right"
+msgstr ""
+
+#: inc/animation-types.php:64
+msgid "Slide out up"
+msgstr ""
+
+#: inc/animation-types.php:65
+msgid "Slide out down"
+msgstr ""
+
+#: inc/animation-types.php:66
+msgid "Slide out left"
+msgstr ""
+
+#: inc/animation-types.php:67
+msgid "Slide out right"
+msgstr ""
+
+#: inc/animation-types.php:68
+msgid "Zoom in"
+msgstr ""
+
+#: inc/animation-types.php:69
+msgid "Zoom in down"
+msgstr ""
+
+#: inc/animation-types.php:70
+msgid "Zoom in left"
+msgstr ""
+
+#: inc/animation-types.php:71
+msgid "Zoom in right"
+msgstr ""
+
+#: inc/animation-types.php:72
+msgid "Zoom in up"
+msgstr ""
+
+#: inc/animation-types.php:73
+msgid "Zoom out"
+msgstr ""
+
+#: inc/animation-types.php:74
+msgid "Zoom out down"
+msgstr ""
+
+#: inc/animation-types.php:75
+msgid "Zoom out left"
+msgstr ""
+
+#: inc/animation-types.php:76
+msgid "Zoom out right"
+msgstr ""
+
+#: inc/animation-types.php:77
+msgid "Zoom out up"
+msgstr ""
+
+#: inc/animation-types.php:78
+msgid "Hinge"
+msgstr ""
+
+#: inc/animation-types.php:79
+msgid "Roll in"
+msgstr ""
+
+#: inc/animation-types.php:80
+msgid "Roll out"
+msgstr ""
+
+#: inc/form.php:25
+msgid "SiteOrigin Premium Form"
+msgstr ""
+
+#: inc/form.php:89
+msgid "Scripts and styles for this form are loading."
+msgstr ""
+
+#: inc/notices.php:4
+msgid "Your SiteOrigin Premium license has expired. Please <a href=\"%renew%\" target=\"_blank\" rel=\"noopener noreferrer\">renew your license</a> to continue receiving updates and support."
+msgstr ""
+
+#: inc/notices.php:5
+msgid "The SiteOrigin Premium license key you're trying to use is invalid. Please <a href='%purchase%' target='_blank' rel='noopener noreferrer'>purchase one</a> from SiteOrigin."
+msgstr ""
+
+#: inc/recommended-plugins.php:52
+msgid "SiteOrigin Premium recommends the following plugin: %1$s."
+msgid_plural "SiteOrigin Premium recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/recommended-plugins.php:58
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with SiteOrigin Premium: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with SiteOrigin Premium: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/updater.php:626
+msgid "Invalid token supplied"
+msgstr ""
+
+#: inc/updater.php:632
+msgid "License key expired or not activated for this URL. Please contact %s for help."
+msgstr ""
+
+#: admin/tpl/addons-page.php:17
+msgid "SiteOrigin Premium Addons"
+msgstr ""
+
+#: admin/tpl/addons-page.php:19
+msgid "Search Addons"
+msgstr ""
+
+#: admin/tpl/addons-page.php:24
+msgid "All Addons"
+msgstr ""
+
+#: admin/tpl/addons-page.php:25
+msgid "Plugin Addons"
+msgstr ""
+
+#: admin/tpl/addons-page.php:26
+msgid "Theme Addons"
+msgstr ""
+
+#: admin/tpl/addons-page.php:141
+msgid "Documentation"
+msgstr ""
+
+#: admin/tpl/addons-page.php:159
+msgid "Proudly Created By"
+msgstr ""
+
+#: admin/tpl/addons-page.php:170
+msgid "Addon Settings"
+msgstr ""
+
+#: admin/tpl/addons-page.php:181, admin/tpl/license-page.php:41
+msgid "Save"
+msgstr ""
+
+#: admin/tpl/license-page.php:14
+msgid "SiteOrigin Premium License"
+msgstr ""
+
+#: admin/tpl/license-page.php:27
+msgid "License Key"
+msgstr ""
+
+#: admin/tpl/license-page.php:31
+msgid "This license is valid and active"
+msgstr ""
+
+#: admin/tpl/license-page.php:39
+msgid "Activate"
+msgstr ""
+
+#: addons/plugin/accordion/accordion.php:3
+msgid "SiteOrigin Accordion"
+msgstr ""
+
+#: addons/plugin/accordion/accordion.php:4
+msgid "Additional settings and styles for the Widgets Bundle Accordion widget."
+msgstr ""
+
+#: addons/plugin/accordion/accordion.php:54, addons/plugin/tabs/tabs.php:66
+msgid "Presets"
+msgstr ""
+
+#: addons/plugin/accordion/accordion.php:78, addons/plugin/tabs/tabs.php:97
+msgid "Title icon image"
+msgstr ""
+
+#: addons/plugin/accordion/accordion.php:79, addons/plugin/tabs/tabs.php:98
+msgid "Use your own title icon image"
+msgstr ""
+
+#: addons/plugin/accordion/accordion.php:151, addons/plugin/accordion/accordion.php:286, addons/plugin/image-overlay/image-overlay.php:88, addons/plugin/image-overlay/image-overlay.php:166, addons/plugin/image-overlay/image-overlay.php:176, addons/plugin/tabs/tabs.php:153, addons/plugin/tabs/tabs.php:189, addons/plugin/tabs/tabs.php:214, addons/plugin/tabs/tabs.php:227, addons/plugin/tabs/tabs.php:248, addons/plugin/tabs/tabs.php:271, addons/plugin/tabs/tabs.php:329, addons/plugin/tabs/tabs.php:341, addons/plugin/tabs/tabs.php:358, addons/plugin/tabs/tabs.php:407, addons/plugin/tooltip/tooltip.php:105
+msgid "Top"
+msgstr ""
+
+#: addons/plugin/accordion/accordion.php:155, addons/plugin/accordion/accordion.php:290, addons/plugin/image-overlay/image-overlay.php:89, addons/plugin/image-overlay/image-overlay.php:167, addons/plugin/image-overlay/image-overlay.php:187, addons/plugin/tabs/tabs.php:157, addons/plugin/tabs/tabs.php:190, addons/plugin/tabs/tabs.php:201, addons/plugin/tabs/tabs.php:228, addons/plugin/tabs/tabs.php:252, addons/plugin/tabs/tabs.php:275, addons/plugin/tabs/tabs.php:296, addons/plugin/tabs/tabs.php:330, addons/plugin/tabs/tabs.php:342, addons/plugin/tabs/tabs.php:362, addons/plugin/tabs/tabs.php:408
+msgid "Right"
+msgstr ""
+
+#: addons/plugin/accordion/accordion.php:159, addons/plugin/accordion/accordion.php:294, addons/plugin/image-overlay/image-overlay.php:90, addons/plugin/image-overlay/image-overlay.php:168, addons/plugin/image-overlay/image-overlay.php:177, addons/plugin/tabs/tabs.php:161, addons/plugin/tabs/tabs.php:191, addons/plugin/tabs/tabs.php:215, addons/plugin/tabs/tabs.php:229, addons/plugin/tabs/tabs.php:256, addons/plugin/tabs/tabs.php:279, addons/plugin/tabs/tabs.php:331, addons/plugin/tabs/tabs.php:343, addons/plugin/tabs/tabs.php:366, addons/plugin/tabs/tabs.php:409, addons/plugin/tooltip/tooltip.php:106
+msgid "Bottom"
+msgstr ""
+
+#: addons/plugin/accordion/accordion.php:163, addons/plugin/accordion/accordion.php:298, addons/plugin/image-overlay/image-overlay.php:91, addons/plugin/image-overlay/image-overlay.php:169, addons/plugin/image-overlay/image-overlay.php:186, addons/plugin/tabs/tabs.php:165, addons/plugin/tabs/tabs.php:192, addons/plugin/tabs/tabs.php:200, addons/plugin/tabs/tabs.php:230, addons/plugin/tabs/tabs.php:260, addons/plugin/tabs/tabs.php:283, addons/plugin/tabs/tabs.php:295, addons/plugin/tabs/tabs.php:332, addons/plugin/tabs/tabs.php:344, addons/plugin/tabs/tabs.php:370, addons/plugin/tabs/tabs.php:410
+msgid "Left"
+msgstr ""
+
+#: addons/plugin/accordion/accordion.php:200
+msgid "Title text transform"
+msgstr ""
+
+#: addons/plugin/accordion/accordion.php:203
+msgid "Capitalize"
+msgstr ""
+
+#: addons/plugin/accordion/accordion.php:204
+msgid "Uppercase"
+msgstr ""
+
+#: addons/plugin/accordion/accordion.php:205
+msgid "Lowercase"
+msgstr ""
+
+#: addons/plugin/accordion/accordion.php:308, addons/plugin/tabs/tabs.php:302, addons/plugin/tabs/tabs.php:380
+msgid "Font"
+msgstr ""
+
+#: addons/plugin/accordion/accordion.php:312, addons/plugin/tabs/tabs.php:306, addons/plugin/tabs/tabs.php:384
+msgid "Font size"
+msgstr ""
+
+#: addons/plugin/accordion/accordion.php:476, addons/plugin/tabs/tabs.php:609
+msgid "This field requires Page Builder."
+msgstr ""
+
+#: addons/plugin/animations/animations.php:3
+msgid "SiteOrigin Block Animations"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:4
+msgid "Adds row and widget animation options."
+msgstr ""
+
+#: addons/plugin/animations/animations.php:42
+msgid "Help"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:55
+msgid "Animations"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:71, addons/plugin/hero/hero.php:72
+msgid "Animation"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:75
+msgid "The type of animation for this element."
+msgstr ""
+
+#: addons/plugin/animations/animations.php:80
+msgid "Element Enters Screen"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:81
+msgid "Element In Screen"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:82
+msgid "Page Load"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:83
+msgid "Hover"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:87
+msgid "Slide Display"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:92
+msgid "Animation Event"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:97
+msgid "The event that triggers the animation."
+msgstr ""
+
+#: addons/plugin/animations/animations.php:103
+msgid "Slide Out Animation"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:107
+msgid "This animation occurs every time the slide transitions away. Animation speed is the only setting that will be applied."
+msgstr ""
+
+#: addons/plugin/animations/animations.php:113
+msgid "Screen Offset"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:117
+msgid "How many pixels above the bottom of the screen must the element be before animating in."
+msgstr ""
+
+#: addons/plugin/animations/animations.php:122
+msgid "Animation Speed"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:126
+msgid "Number of seconds that the incoming animation lasts."
+msgstr ""
+
+#: addons/plugin/animations/animations.php:131
+msgid "Repeat Animation"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:134
+msgid "If the animation should repeat for the duration of the Animation Event. This is currently only implemented for the Hover Animation Event."
+msgstr ""
+
+#: addons/plugin/animations/animations.php:139
+msgid "Hide Before Animation"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:143, addons/plugin/hero/hero.php:103
+msgid "Hide the element before animating."
+msgstr ""
+
+#: addons/plugin/animations/animations.php:149
+msgid "Disable Animation on Mobile"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:150, addons/plugin/image-overlay/image-overlay.php:236, addons/plugin/tooltip/tooltip.php:139
+msgid "Disabled"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:159
+msgid "Animation Final State"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:162
+msgid "Visible"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:163
+msgid "Hidden"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:164
+msgid "Removed"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:168
+msgid "The final state of the element after the animation is complete."
+msgstr ""
+
+#: addons/plugin/animations/animations.php:173
+msgid "Animation Delay"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:177
+msgid "Number of seconds after the event to start the animation."
+msgstr ""
+
+#: addons/plugin/animations/animations.php:182
+msgid "Animation Debounce"
+msgstr ""
+
+#: addons/plugin/animations/animations.php:186
+msgid "Number of seconds to wait after the page stops scrolling before the animation is started. This only applies to the \"Element Enters Screen\" and \"Element In Screen\" events."
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:3
+msgid "SiteOrigin Contact Form"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:4
+msgid "Additional settings and styles for the Widgets Bundle Contact Form widget."
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:68
+msgid "Datepicker min year"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:73
+msgid "Datepicker max year"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:78
+msgid "Use WordPress date format"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:96
+msgid "Use autoresponder."
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:108
+msgid "Autoresponder"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:113
+msgid "From name"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:115
+msgid "The name of the person the automatic response email will come from."
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:119
+msgid "From email"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:120
+msgid "The email address the automatic response email will come from."
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:124
+msgid "Response email subject"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:125, addons/plugin/contact-form-fields/contact-form-fields.php:286
+msgid "Message received!"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:129
+msgid "Response email message"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:130, addons/plugin/contact-form-fields/contact-form-fields.php:290
+msgid "Thanks for contacting us. We'll get back to you shortly."
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:144
+msgid "Datetime picker"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:145
+msgid "Location"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:154
+msgid "Location Options"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:158
+msgid "Show Google Map"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:160
+msgid "Clicking on the map will guess the closest address and the map will try to display the address entered into the text input"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:164
+msgid "Default location"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:168, addons/plugin/map-styles/map-styles.php:71
+msgid "Center on user's location"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:170
+msgid "The user will be prompted to accept before centering. The Map Default location will be used as a fallback. Requires HTTPS."
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:183
+msgid "Datetime Options"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:187
+msgid "Show Date Picker"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:192
+msgid "Calendar Always Visible"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:197
+msgid "Date Picker Label"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:198
+msgid "Date"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:202
+msgid "First Day of the Week"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:205, addons/plugin/contact-form-fields/fields/datepicker.class.php:110
+msgid "Sunday"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:206, addons/plugin/contact-form-fields/fields/datepicker.class.php:111
+msgid "Monday"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:211
+msgid "Disable"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:215
+msgid "Weekends"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:216
+msgid "Weekdays"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:221
+msgid "Disable Dates"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:222
+msgid "Specify specific dates, date ranges or weekdays to disable. Dates should be of the format YYYYMMDD e.g. 20160806 and date ranges should be separated by a hyphen e.g. 20160902-20160918. Week days should be the first three letters of the day e.g. Mon,Wed,Fri. Multiple dates, ranges and days should separated by a comma e.g. 20160825,20160902-20160918,Sun,Fri."
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:226
+msgid "Show Time Picker"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:231
+msgid "Time Picker Label"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:232
+msgid "Time"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:236
+msgid "Use 24h format."
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:241
+msgid "Disabled Times"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:242
+msgid "Specify disabled times. Ranges should be specified with a dash and multiple ranges should be separated with a comma. E.g. 5:00pm-8:00am,1pm-14:30"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/contact-form-fields.php:246
+msgid "Hide Disabled Times"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:3
+msgid "SiteOrigin Custom Post Type Builder"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:4
+msgid "Build custom post types with reusable Page Builder layouts."
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:74
+msgid "Post Types"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:257
+msgid "Warning! Editing the post type layout will affect %s existing posts of this type."
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:261
+msgid "Warning! Disabling editable layout will cause problems with %s existing posts of this type."
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:265
+msgid "Warning! Editing the post type slug will cause problems with %s existing posts of this type!"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:293
+msgid "Custom Post Type"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:313
+msgid "Read Only Widget"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:314
+msgid "Read Only"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:317
+msgid "This widget will be the same across all instances of this post type."
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:603
+msgid "Post Type Settings"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:622
+msgid "Post Supports"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:625
+msgid "Title"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:626
+msgid "Author"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:627
+msgid "Thumbnail"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:628
+msgid "Excerpt"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:629
+msgid "Trackbacks"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:630
+msgid "Custom Fields"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:631
+msgid "Comments"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:632
+msgid "Revisions"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:633
+msgid "Page Attributes"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:634
+msgid "Post Formats"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:640
+msgid "Editable layout"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:641
+msgid "Whether rows and widgets may be added, moved or deleted. Do not disable this after creating the post type."
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:645, addons/plugin/cpt-builder/cpt-builder.php:703
+msgid "Slug"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:646
+msgid "Used in the post type URL. This must be unique across all post types. Do not change this after creating the post type."
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:651
+msgid "Hierarchical post type"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:653
+msgid "Must enable Page Attributes above to be able to select the Parent."
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:657
+msgid "Has archive pages"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:662
+msgid "Exclude from search results"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:667
+msgid "Admin Icon"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:672
+msgid "Labels"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:676
+msgid "Singular"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:680
+msgid "Plural"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:686, addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:32
+msgid "Description"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:690
+msgid "Taxonomies"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:699, addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:38, addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:60, addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:82
+msgid "Label"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:707
+msgid "Taxonomies are tags by default. Hierarchical taxonomies are categories."
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:708
+msgid "Hierarchical"
+msgstr ""
+
+#: addons/plugin/cpt-builder/cpt-builder.php:750
+msgid "Dashicons"
+msgstr ""
+
+#: addons/plugin/cta/cta.php:3
+msgid "SiteOrigin Call-To-Action"
+msgstr ""
+
+#: addons/plugin/cta/cta.php:4
+msgid "Additional settings and styles for the Widgets Bundle Call-To-Action widget."
+msgstr ""
+
+#: addons/plugin/cta/cta.php:69, addons/plugin/testimonial/testimonial.php:79
+msgid "Fonts"
+msgstr ""
+
+#: addons/plugin/cta/cta.php:73, addons/plugin/testimonial/testimonial.php:83
+msgid "Title font family"
+msgstr ""
+
+#: addons/plugin/cta/cta.php:77, addons/plugin/testimonial/testimonial.php:87
+msgid "Title font size"
+msgstr ""
+
+#: addons/plugin/cta/cta.php:81
+msgid "Subtitle font family"
+msgstr ""
+
+#: addons/plugin/cta/cta.php:85
+msgid "Subtitle font size"
+msgstr ""
+
+#: addons/plugin/hero/hero.php:3
+msgid "SiteOrigin Hero"
+msgstr ""
+
+#: addons/plugin/hero/hero.php:4
+msgid "Additional settings and styles for the Widgets Bundle Hero widget."
+msgstr ""
+
+#: addons/plugin/hero/hero.php:68
+msgid "Content animation"
+msgstr ""
+
+#: addons/plugin/hero/hero.php:77
+msgid "Animation event"
+msgstr ""
+
+#: addons/plugin/hero/hero.php:79
+msgid "Element enters screen"
+msgstr ""
+
+#: addons/plugin/hero/hero.php:80
+msgid "Element in screen"
+msgstr ""
+
+#: addons/plugin/hero/hero.php:81
+msgid "Page load"
+msgstr ""
+
+#: addons/plugin/hero/hero.php:82
+msgid "On hover"
+msgstr ""
+
+#: addons/plugin/hero/hero.php:83
+msgid "Frame display"
+msgstr ""
+
+#: addons/plugin/hero/hero.php:89
+msgid "Screen offset"
+msgstr ""
+
+#: addons/plugin/hero/hero.php:91
+msgid "Distance, in pixels, the content must be above the bottom of the screen before animating in."
+msgstr ""
+
+#: addons/plugin/hero/hero.php:95
+msgid "Animation speed"
+msgstr ""
+
+#: addons/plugin/hero/hero.php:97
+msgid "Time, in seconds, that the incoming animation lasts."
+msgstr ""
+
+#: addons/plugin/hero/hero.php:100
+msgid "Hide before animation"
+msgstr ""
+
+#: addons/plugin/hero/hero.php:107
+msgid "Animation delay"
+msgstr ""
+
+#: addons/plugin/hero/hero.php:109
+msgid "Time, in seconds, after the event to start the animation."
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:3
+msgid "SiteOrigin Image Overlay"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:4
+msgid "Add a beautiful and customizable text overlay with animations to your images."
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:52, addons/plugin/tooltip/tooltip.php:56
+msgid "Enabled SiteOrigin widgets"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:55, addons/plugin/tooltip/tooltip.php:61
+msgid "Image widget"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:56, addons/plugin/tooltip/tooltip.php:62
+msgid "Image Grid widget"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:57, addons/plugin/tooltip/tooltip.php:64
+msgid "Simple Masonry widget"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:62
+msgid "Preset themes"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:67
+msgid "Delay before showing overlay (in milliseconds)"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:72, addons/plugin/lightbox/lightbox.php:87
+msgid "Overlay color"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:77, addons/plugin/lightbox/lightbox.php:92
+msgid "Overlay opacity"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:85
+msgid "Overlay position"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:96
+msgid "Overlay size"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:97
+msgid "The size of the overlay as a fraction of the image's size."
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:105
+msgid "Desktop device trigger"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:108
+msgid "Show on hover"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:109, addons/plugin/image-overlay/image-overlay.php:119
+msgid "Always show"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:111
+msgid "When to display the overlay on desktop."
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:115
+msgid "Touch device show trigger"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:118
+msgid "Show on touch"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:121
+msgid "When to display the overlay on touch devices."
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:125
+msgid "Touch device width"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:127
+msgid "Device width in pixels. Controls when the touch show trigger takes effect."
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:131
+msgid "Overlay animation"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:134, addons/plugin/image-overlay/image-overlay.php:197
+msgid "Fade"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:135
+msgid "Slide"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:136, addons/plugin/image-overlay/image-overlay.php:202
+msgid "Drop"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:142
+msgid "Animate overlay when image enters screen"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:143
+msgid "Requires the applicable device trigger to be set to Always show."
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:148
+msgid "Font family"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:152
+msgid "Text size"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:157
+msgid "Text color"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:162
+msgid "Text padding"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:174
+msgid "Text position"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:178, addons/plugin/tabs/tabs.php:216
+msgid "Middle"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:184
+msgid "Text alignment"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:188, addons/plugin/tabs/tabs.php:202, addons/plugin/tooltip/tooltip.php:104
+msgid "Center"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:194
+msgid "Text animation"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:198
+msgid "Slide Left"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:199
+msgid "Slide Right"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:200
+msgid "Slide Up"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:201
+msgid "Slide Down"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:204
+msgid "This is a secondary animation which will be triggered after the overlay animation finishes playing."
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:226
+msgid "Image Overlay"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:231
+msgid "Enable Image Overlay"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:234, addons/plugin/image-overlay/image-overlay.php:249, addons/plugin/tooltip/tooltip.php:137, addons/plugin/tooltip/tooltip.php:151
+msgid "Use global setting"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:235, addons/plugin/tooltip/tooltip.php:138, addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:43, addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:65, addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:87
+msgid "Enabled"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:245
+msgid "Overlay theme"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:247
+msgid "This will override some of the global Overlay settings."
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:250, addons/plugin/tooltip/tooltip.php:114, addons/plugin/tooltip/tooltip.php:152
+msgid "Light"
+msgstr ""
+
+#: addons/plugin/image-overlay/image-overlay.php:251, addons/plugin/tooltip/tooltip.php:115, addons/plugin/tooltip/tooltip.php:153
+msgid "Dark"
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:3
+msgid "SiteOrigin Lightbox"
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:4
+msgid "Enable a lightbox on various image widgets."
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:65
+msgid "Always show navigation controls on touch devices"
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:71
+msgid "Disable all lightboxes on tablet devices."
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:77
+msgid "Disable all lightboxes on mobile devices."
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:82
+msgid "Disable page scrolling when the lightbox is open"
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:100
+msgid "Fade duration"
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:102
+msgid "Time, in milliseconds, for the lightbox container and overlay to fade in/out."
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:106
+msgid "Fit images in viewport"
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:108
+msgid "Resize images that are too large to fit in the current viewport."
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:112
+msgid "Image fade duration"
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:114
+msgid "Time, in milliseconds, for an image to fade in, once loaded."
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:118
+msgid "Max image height (in pixels)"
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:122
+msgid "Max image width (in pixels)"
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:126
+msgid "Top offset"
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:128
+msgid "Position, in pixels, of the lightbox from the top of the viewport."
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:132
+msgid "Resize duration"
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:134
+msgid "The time it takes for the lightbox container to animate its width and height when transitioning between different size images, in milliseconds."
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:138
+msgid "Show image number label"
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:140
+msgid "Show text indicating the current image number and the total number of images in the set."
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:144
+msgid "Disable captions for all lightboxes"
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:148
+msgid "Wrap around"
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:150
+msgid "Go back to the first image when the last image is reached."
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:163
+msgid "Enable Lightbox"
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:164
+msgid "This will override the destination URL."
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:175
+msgid "Album name"
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:176
+msgid "Images with the same album name will be displayed together."
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:185
+msgid "Disable caption for this lightbox"
+msgstr ""
+
+#: addons/plugin/lightbox/lightbox.php:220
+msgid "%1 of %2"
+msgstr ""
+
+#: addons/plugin/map-styles/map-styles.php:3
+msgid "SiteOrigin Map Styles"
+msgstr ""
+
+#: addons/plugin/map-styles/map-styles.php:4
+msgid "Adds a curated list of predefined map styles to the SiteOrigin Google Maps widget as well as additional consent prompt styling options."
+msgstr ""
+
+#: addons/plugin/map-styles/map-styles.php:73
+msgid "The user will be prompted to accept before centering. The Map center location will be used as a fallback. Requires HTTPS."
+msgstr ""
+
+#: addons/plugin/map-styles/map-styles.php:86
+msgid "Premium Styles"
+msgstr ""
+
+#: addons/plugin/map-styles/map-styles.php:144
+msgid "Premium styles"
+msgstr ""
+
+#: addons/plugin/map-styles/map-styles.php:152
+msgid "Imports map styles created using the %sGoogle Maps Platform Styling Wizard%s and %sSnazzy Maps%s."
+msgstr ""
+
+#: addons/plugin/map-styles/map-styles.php:192
+msgid "Consent prompt design"
+msgstr ""
+
+#: addons/plugin/map-styles/map-styles.php:200
+msgid "Background"
+msgstr ""
+
+#: addons/plugin/map-styles/map-styles.php:205
+msgid "Consent prompt background color"
+msgstr ""
+
+#: addons/plugin/map-styles/map-styles.php:210
+msgid "Consent prompt background image"
+msgstr ""
+
+#: addons/plugin/map-styles/map-styles.php:219, addons/plugin/tabs/tabs.php:114
+msgid "Text"
+msgstr ""
+
+#: addons/plugin/map-styles/map-styles.php:224
+msgid "Consent prompt text color"
+msgstr ""
+
+#: addons/plugin/map-styles/map-styles.php:229
+msgid "Consent prompt link color"
+msgstr ""
+
+#: addons/plugin/map-styles/map-styles.php:234
+msgid "Consent prompt link color hover"
+msgstr ""
+
+#: addons/plugin/mirror-widgets/mirror-widgets.php:3
+msgid "SiteOrigin Mirror Widgets"
+msgstr ""
+
+#: addons/plugin/mirror-widgets/mirror-widgets.php:4
+msgid "Create a widget once, use it everywhere. Update it and the changes reflect in all instances of the widget."
+msgstr ""
+
+#: addons/plugin/mirror-widgets/mirror-widgets.php:70
+msgid "Mirror Widget"
+msgstr ""
+
+#: addons/plugin/mirror-widgets/mirror-widgets.php:71
+msgid "Mirror Widgets"
+msgstr ""
+
+#: addons/plugin/mirror-widgets/mirror-widgets.php:73
+msgid "A widget which can be used anywhere, with all changes to the widget reflected wherever the widget is used."
+msgstr ""
+
+#: addons/plugin/mirror-widgets/mirror-widgets.php:112
+msgid "Mirror Widget Shortcode"
+msgstr ""
+
+#: addons/plugin/mirror-widgets/mirror-widgets.php:138
+msgid "Error: Invalid Mirror Widget ID."
+msgstr ""
+
+#: addons/plugin/parallax-sliders/parallax-sliders.php:3
+msgid "SiteOrigin Parallax Sliders"
+msgstr ""
+
+#: addons/plugin/parallax-sliders/parallax-sliders.php:4
+msgid "Adds parallax background option to slider widgets."
+msgstr ""
+
+#: addons/plugin/parallax-sliders/parallax-sliders.php:170, addons/plugin/parallax-sliders/parallax-sliders.php:177
+msgid "Parallax"
+msgstr ""
+
+#: addons/plugin/parallax-sliders/parallax-sliders.php:171
+msgid "Fixed"
+msgstr ""
+
+#: addons/plugin/social-widgets/social-widgets.php:3
+msgid "SiteOrigin Social Widgets"
+msgstr ""
+
+#: addons/plugin/social-widgets/social-widgets.php:4
+msgid "Adds ability to set custom networks for the SiteOrigin Social Media Buttons widget."
+msgstr ""
+
+#: addons/plugin/tabs/tabs.php:3
+msgid "SiteOrigin Tabs"
+msgstr ""
+
+#: addons/plugin/tabs/tabs.php:4
+msgid "Additional settings and styles for the Widgets Bundle Tabs widget."
+msgstr ""
+
+#: addons/plugin/tabs/tabs.php:74
+msgid "Use anchor tags in the URL."
+msgstr ""
+
+#: addons/plugin/tabs/tabs.php:93
+msgid "Title icon"
+msgstr ""
+
+#: addons/plugin/tabs/tabs.php:112
+msgid "Content type"
+msgstr ""
+
+#: addons/plugin/tabs/tabs.php:115
+msgid "Layout builder"
+msgstr ""
+
+#: addons/plugin/tabs/tabs.php:125
+msgid "Content"
+msgstr ""
+
+#: addons/plugin/tabs/tabs.php:174, addons/plugin/tabs/tabs.php:314, addons/plugin/tabs/tabs.php:392
+msgid "Border radius"
+msgstr ""
+
+#: addons/plugin/tabs/tabs.php:177, addons/plugin/tabs/tabs.php:317, addons/plugin/tabs/tabs.php:395
+msgid "Top left"
+msgstr ""
+
+#: addons/plugin/tabs/tabs.php:178, addons/plugin/tabs/tabs.php:318, addons/plugin/tabs/tabs.php:396
+msgid "Top right"
+msgstr ""
+
+#: addons/plugin/tabs/tabs.php:179, addons/plugin/tabs/tabs.php:319, addons/plugin/tabs/tabs.php:397
+msgid "Bottom right"
+msgstr ""
+
+#: addons/plugin/tabs/tabs.php:180, addons/plugin/tabs/tabs.php:320, addons/plugin/tabs/tabs.php:398
+msgid "Bottom left"
+msgstr ""
+
+#: addons/plugin/tabs/tabs.php:185, addons/plugin/tabs/tabs.php:325, addons/plugin/tabs/tabs.php:403
+msgid "Padding"
+msgstr ""
+
+#: addons/plugin/tabs/tabs.php:197, addons/plugin/tabs/tabs.php:211
+msgid "Tabs alignment"
+msgstr ""
+
+#: addons/plugin/tabs/tabs.php:225
+msgid "Tabs position"
+msgstr ""
+
+#: addons/plugin/tabs/tabs.php:293
+msgid "Icon location"
+msgstr ""
+
+#: addons/plugin/tabs/tabs.php:337
+msgid "Margin"
+msgstr ""
+
+#: addons/plugin/testimonial/testimonial.php:3
+msgid "SiteOrigin Testimonials"
+msgstr ""
+
+#: addons/plugin/testimonial/testimonial.php:4
+msgid "Additional settings and styles for the Widgets Bundle Testimonial widget."
+msgstr ""
+
+#: addons/plugin/testimonial/testimonial.php:91
+msgid "Name font family"
+msgstr ""
+
+#: addons/plugin/testimonial/testimonial.php:95
+msgid "Name font size"
+msgstr ""
+
+#: addons/plugin/testimonial/testimonial.php:99
+msgid "Location font family"
+msgstr ""
+
+#: addons/plugin/testimonial/testimonial.php:103
+msgid "Location font size"
+msgstr ""
+
+#: addons/plugin/testimonial/testimonial.php:107
+msgid "Text font family"
+msgstr ""
+
+#: addons/plugin/testimonial/testimonial.php:111
+msgid "Text font size"
+msgstr ""
+
+#: addons/plugin/toggle-visibility/toggle-visibility.php:3
+msgid "SiteOrigin Toggle Visibility"
+msgstr ""
+
+#: addons/plugin/toggle-visibility/toggle-visibility.php:4
+msgid "Toggle the visibility of Page Builder rows and widgets based on device."
+msgstr ""
+
+#: addons/plugin/toggle-visibility/toggle-visibility.php:33
+msgid "Toggle Visibility"
+msgstr ""
+
+#: addons/plugin/toggle-visibility/toggle-visibility.php:46
+msgid "Hide Row"
+msgstr ""
+
+#: addons/plugin/toggle-visibility/toggle-visibility.php:49
+msgid "Disable row on all devices."
+msgstr ""
+
+#: addons/plugin/toggle-visibility/toggle-visibility.php:55
+msgid "Hide Widget"
+msgstr ""
+
+#: addons/plugin/toggle-visibility/toggle-visibility.php:58
+msgid "Disable widget on all devices."
+msgstr ""
+
+#: addons/plugin/toggle-visibility/toggle-visibility.php:65
+msgid "Hide on Desktop"
+msgstr ""
+
+#: addons/plugin/toggle-visibility/toggle-visibility.php:72
+msgid "Hide on Tablet"
+msgstr ""
+
+#: addons/plugin/toggle-visibility/toggle-visibility.php:79
+msgid "Hide on Mobile"
+msgstr ""
+
+#: addons/plugin/tooltip/tooltip.php:3
+msgid "SiteOrigin Tooltip"
+msgstr ""
+
+#: addons/plugin/tooltip/tooltip.php:4
+msgid "Enable a tooltip on various image widgets."
+msgstr ""
+
+#: addons/plugin/tooltip/tooltip.php:59
+msgid "Features widget"
+msgstr ""
+
+#: addons/plugin/tooltip/tooltip.php:60
+msgid "Icon Widget"
+msgstr ""
+
+#: addons/plugin/tooltip/tooltip.php:63
+msgid "Price Table widget"
+msgstr ""
+
+#: addons/plugin/tooltip/tooltip.php:69
+msgid "Show tooltip on"
+msgstr ""
+
+#: addons/plugin/tooltip/tooltip.php:72
+msgid "Mouse over"
+msgstr ""
+
+#: addons/plugin/tooltip/tooltip.php:73, addons/plugin/tooltip/tooltip.php:95
+msgid "Click"
+msgstr ""
+
+#: addons/plugin/tooltip/tooltip.php:82
+msgid "Delay before showing tooltip (in milliseconds)"
+msgstr ""
+
+#: addons/plugin/tooltip/tooltip.php:91
+msgid "Hide tooltip on"
+msgstr ""
+
+#: addons/plugin/tooltip/tooltip.php:94
+msgid "Mouse out"
+msgstr ""
+
+#: addons/plugin/tooltip/tooltip.php:100
+msgid "Tooltip position"
+msgstr ""
+
+#: addons/plugin/tooltip/tooltip.php:103
+msgid "Follow cursor"
+msgstr ""
+
+#: addons/plugin/tooltip/tooltip.php:111
+msgid "Theme"
+msgstr ""
+
+#: addons/plugin/tooltip/tooltip.php:129
+msgid "Tooltip"
+msgstr ""
+
+#: addons/plugin/tooltip/tooltip.php:134
+msgid "Enable Tooltip"
+msgstr ""
+
+#: addons/plugin/tooltip/tooltip.php:148
+msgid "Tooltip theme"
+msgstr ""
+
+#: addons/plugin/web-font-selector/web-font-selector.php:3
+msgid "SiteOrigin Web Font Selector"
+msgstr ""
+
+#: addons/plugin/web-font-selector/web-font-selector.php:4
+msgid "Choose from hundreds of beautiful web fonts right in the visual editor."
+msgstr ""
+
+#: addons/plugin/web-font-selector/web-font-selector.php:91
+msgid "Select Web Font"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:3
+msgid "SiteOrigin WooCommerce Templates"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:4
+msgid "Create custom WooCommerce templates using the power of SiteOrigin Page Builder."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:155, addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-details-table.php:33
+msgid "Product"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:159
+msgid "Product archive"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:163
+msgid "Shop"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:167
+msgid "Cart"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:171
+msgid "Empty cart"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:175
+msgid "Checkout"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:179, addons/plugin/woocommerce-templates/woocommerce-templates.php:197
+msgid "Thank you"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:183, addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-status.php:58
+msgid "My account"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:230, addons/plugin/woocommerce-templates/woocommerce-templates.php:245, addons/plugin/woocommerce-templates/woocommerce-templates.php:251, addons/plugin/woocommerce-templates/woocommerce-templates.php:572
+msgid "SiteOrigin WooCommerce Layout"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:299
+msgid "WooCommerce Template"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:313, addons/plugin/woocommerce-templates/woocommerce-templates.php:314, addons/plugin/woocommerce-templates/inc/admin-wc-template-builder.php:19
+msgid "WooCommerce Template Builder"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:341
+msgid "Please install and activate WooCommerce before using this addon."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:347
+msgid "The SiteOrigin WooCommerce Template Builder addon isn't compatible with this version of WooCommerce. Please update to WooCommerce 3.4.0, or later, before using this addon."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:353
+msgid "Please install and activate SiteOrigin Page Builder before using this addon."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:360
+msgid "Please install and activate the SiteOrigin Widgets Bundle plugin before using this addon."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:451
+msgid "The templates to be used when viewing single product pages. Set one as the default and it will be used for all single product pages. Layouts can also be enabled for individual products by going to Products > Edit product and selecting the template from the Product template meta box dropdown."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:454
+msgid "The templates to be used for each product when viewing an archive page. Set one as the default and it will be used for the Shop page and any other product archive pages. Layouts can also be enabled for individual product archives by going to Products > Categories > Edit category and selecting the template from the Product archive template dropdown."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:457
+msgid "The template to be used when viewing the Shop page. This layout allows customization of position and size of the product loop, and placing widgets around the product loop."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:460
+msgid "The template to be used when viewing a cart which contains products."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:463
+msgid "The template to be used when viewing an empty cart."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:466
+msgid "The template to be used for the Checkout page."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:469
+msgid "The template to be used for the Thank you page which appears after an order is submitted."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:472
+msgid "The template to be used for the My account page."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:519
+msgid "Permanently delete this template?"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:772
+msgid "WooCommerce Product"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:779
+msgid "WooCommerce Product archive"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:786
+msgid "WooCommerce Shop"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:793
+msgid "WooCommerce Cart"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:800
+msgid "WooCommerce Empty Cart"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:807
+msgid "WooCommerce Checkout"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:814
+msgid "WooCommerce Thank You"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:821
+msgid "WooCommerce My account"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:859
+msgid "Product template"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:873, addons/plugin/woocommerce-templates/woocommerce-templates.php:915, addons/plugin/woocommerce-templates/woocommerce-templates.php:971
+msgid "Default"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:912
+msgid "Template:"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/woocommerce-templates.php:962, addons/plugin/woocommerce-templates/woocommerce-templates.php:990
+msgid "Product archive template"
+msgstr ""
+
+#: addons/theme/ajax-comments/ajax-comments.php:3
+msgid "SiteOrigin Ajax Comments"
+msgstr ""
+
+#: addons/theme/ajax-comments/ajax-comments.php:4
+msgid "Keep your SiteOrigin theme conversations flowing with AJAX loading comments."
+msgstr ""
+
+#: addons/theme/no-attribution/no-attribution.php:3
+msgid "SiteOrigin No Attribution"
+msgstr ""
+
+#: addons/theme/no-attribution/no-attribution.php:4
+msgid "Removes SiteOrigin attribution from your website footer."
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:93
+msgid "Previous Month"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:94
+msgid "Next Month"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:96
+msgid "January"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:97
+msgid "February"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:98
+msgid "March"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:99
+msgid "April"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:100
+msgid "May"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:101
+msgid "June"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:102
+msgid "July"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:103
+msgid "August"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:104
+msgid "September"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:105
+msgid "October"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:106
+msgid "November"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:107
+msgid "December"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:112
+msgid "Tuesday"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:113
+msgid "Wednesday"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:114
+msgid "Thursday"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:115
+msgid "Friday"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:116
+msgid "Saturday"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:119
+msgid "Sun"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:120
+msgid "Mon"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:121
+msgid "Tue"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:122
+msgid "Wed"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:123
+msgid "Thu"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:124
+msgid "Fri"
+msgstr ""
+
+#: addons/plugin/contact-form-fields/fields/datepicker.class.php:125
+msgid "Sat"
+msgstr ""
+
+#: addons/plugin/social-widgets/social-media-buttons/social-media-buttons.php:16
+msgid "Add your own social networks."
+msgstr ""
+
+#: addons/plugin/social-widgets/social-media-buttons/social-media-buttons.php:17
+msgid "New Network"
+msgstr ""
+
+#: addons/plugin/social-widgets/social-media-buttons/social-media-buttons.php:26
+msgid "Name"
+msgstr ""
+
+#: addons/plugin/social-widgets/social-media-buttons/social-media-buttons.php:30
+msgid "URL"
+msgstr ""
+
+#: addons/plugin/social-widgets/social-media-buttons/social-media-buttons.php:34
+msgid "Icon title"
+msgstr ""
+
+#: addons/plugin/social-widgets/social-media-buttons/social-media-buttons.php:38
+msgid "Icon"
+msgstr ""
+
+#: addons/plugin/social-widgets/social-media-buttons/social-media-buttons.php:43
+msgid "Icon color"
+msgstr ""
+
+#: addons/plugin/social-widgets/social-media-buttons/social-media-buttons.php:48
+msgid "Background color"
+msgstr ""
+
+#: addons/plugin/social-widgets/social-media-buttons/social-media-buttons.php:52
+msgid "Icon image"
+msgstr ""
+
+#: addons/plugin/web-font-selector/fonts/font_modules.php:4
+msgid "Web Safe"
+msgstr ""
+
+#: addons/plugin/web-font-selector/fonts/font_modules.php:8
+msgid "Google"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/inc/admin-wc-template-builder.php:55
+msgid "Template"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/inc/admin-wc-template-builder.php:57
+msgid "Add new template"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/inc/admin-wc-template-builder.php:61
+msgid "default"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/inc/admin-wc-template-builder.php:78
+msgid "Template title"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/inc/admin-wc-template-builder.php:98
+msgid "Set as default"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/inc/admin-wc-template-builder.php:100
+msgid "Enable template"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/inc/admin-wc-template-builder.php:105
+msgid "Save Template"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/inc/admin-wc-template-builder.php:112
+msgid "Preview template"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/inc/admin-wc-template-builder.php:119
+msgid "Delete template"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/inc/admin-wc-template-builder.php:125
+msgid "This interface requires Javascript"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/inc/admin-wc-template-builder.php:131
+msgid "SiteOrigin WooCommerce Template Preview"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/inc/admin-wc-template-builder.php:142
+msgid "Close"
+msgstr ""
+
+#: addons/plugin/mirror-widgets/inc/mirror-widget/mirror-widget.php:4, addons/plugin/mirror-widgets/inc/mirror-widget/mirror-widget.php:21
+msgid "An instance of a mirror widget."
+msgstr ""
+
+#: addons/plugin/mirror-widgets/inc/mirror-widget/mirror-widget.php:19
+msgid "SiteOrigin Mirror Widget"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/cart/wc-cart-form.php:8
+msgid "Cart form"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/cart/wc-cart-form.php:9
+msgid "Display the cart form."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/cart/wc-cart-totals.php:8
+msgid "Cart totals"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/cart/wc-cart-totals.php:9
+msgid "Display the cart totals and checkout button."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/cart/wc-cross-sell-display.php:8
+msgid "Cart cross sell display"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/cart/wc-cross-sell-display.php:9
+msgid "Display the cart cross-sell products."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/cart-empty/wc-cart-empty-message.php:8
+msgid "Cart empty message"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/cart-empty/wc-cart-empty-message.php:9
+msgid "Display the cart empty message."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/cart-empty/wc-cart-empty-return-to-shop.php:8
+msgid "Cart empty - Return to shop"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/cart-empty/wc-cart-empty-return-to-shop.php:9
+msgid "Display return to shop button."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/checkout/wc-checkout-customer-details.php:8
+msgid "Checkout customer details"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/checkout/wc-checkout-customer-details.php:9
+msgid "Display the customer details form."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/checkout/wc-checkout-order-review.php:11
+msgid "Checkout order review"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/checkout/wc-checkout-order-review.php:13
+msgid "Display the order review and place order button."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/checkout/wc-checkout-order-review.php:20
+msgid "Display product images"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/checkout/wc-checkout-order-review.php:32
+msgid "Thumbnail image size"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/checkout/wc-checkout-order-review.php:35
+msgid "Small"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/checkout/wc-checkout-order-review.php:36
+msgid "Medium"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/checkout/wc-checkout-order-review.php:37
+msgid "Large"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/checkout/wc-checkout-order-review.php:46
+msgid "Border width"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/checkout/wc-checkout-order-review.php:54
+msgid "Border color"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-product/wc-template-loop-add-to-cart.php:10
+msgid "Product loop \"Add to cart\""
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-product/wc-template-loop-add-to-cart.php:11
+msgid "Display the product add to cart button."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-product/wc-template-loop-add-to-cart.php:40, addons/plugin/woocommerce-templates/templates/content-single-product/wc-template-single-add-to-cart.php:31
+msgid "Add to cart"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-product/wc-template-loop-price.php:8
+msgid "Product loop price"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-product/wc-template-loop-price.php:9, addons/plugin/woocommerce-templates/templates/content-single-product/wc-template-single-price.php:9
+msgid "Display the product price."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-product/wc-template-loop-product-thumbnail.php:8
+msgid "Product loop thumbnail"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-product/wc-template-loop-product-thumbnail.php:9
+msgid "Display the product thumbnail image."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-product/wc-template-loop-product-thumbnail.php:46, addons/plugin/woocommerce-templates/templates/content-single-product/wc-show-product-images.php:76
+msgid "Enable sale sticker"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-product/wc-template-loop-product-title.php:8
+msgid "Product loop title"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-product/wc-template-loop-product-title.php:9, addons/plugin/woocommerce-templates/templates/content-single-product/wc-template-single-title.php:9
+msgid "Display the product title."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-product/wc-template-loop-rating.php:8
+msgid "Product loop rating"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-product/wc-template-loop-rating.php:9, addons/plugin/woocommerce-templates/templates/content-single-product/wc-template-single-rating.php:9
+msgid "Display the product rating."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-additional-information.php:8
+msgid "Product additional information"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-additional-information.php:9
+msgid "Display the product weight, dimensions, and attributes, if available."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:4, addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:22
+msgid "Tabs displaying the product description, additional information and reviews."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:20
+msgid "Product data tabs"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:28
+msgid "Tabs"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:39
+msgid "If empty, the default label will be used."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:48, addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:70, addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:92
+msgid "Order"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:54
+msgid "Additional"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:61, addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:83
+msgid "Leaving this field empty will result in the default label being used."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-data-tabs.php:76
+msgid "Reviews"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-description.php:8
+msgid "Product description"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-description.php:9
+msgid "Display the full product description."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-reviews.php:8
+msgid "Product reviews"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-product-reviews.php:9
+msgid "Display the product review form and reviews."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-related-products.php:8
+msgid "Related products"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-output-related-products.php:9
+msgid "Display related products."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-show-product-images.php:8
+msgid "Product images"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-show-product-images.php:9
+msgid "Display the product image gallery. Choose from several options."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-show-product-images.php:46
+msgid "Slider"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-show-product-images.php:47
+msgid "Slider with lightbox"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-show-product-images.php:48
+msgid "Slider with zoom"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-show-product-images.php:49
+msgid "Slider with lightbox and zoom"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-show-product-images.php:55
+msgid "Gallery type"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-template-single-add-to-cart.php:10
+msgid "Product \"Add to cart\" button"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-template-single-add-to-cart.php:11
+msgid "Display the product Add to cart button."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-template-single-add-to-cart.php:37
+msgid "Single product button text"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-template-single-excerpt.php:8
+msgid "Product short description"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-template-single-excerpt.php:9
+msgid "Display the product short description."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-template-single-meta.php:8
+msgid "Product meta"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-template-single-meta.php:9
+msgid "Display the product category and SKU."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-template-single-price.php:8
+msgid "Product price"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-template-single-rating.php:8
+msgid "Product rating"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-template-single-sharing.php:8
+msgid "Product sharing"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-template-single-sharing.php:9
+msgid "Adds a sharing location on the page for third-party plugins to make use of."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-template-single-title.php:8
+msgid "Product title"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-upsell-display.php:8
+msgid "Product upsell display"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/content-single-product/wc-upsell-display.php:9
+msgid "Display the upsell products."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/myaccount/wc-account-content.php:8
+msgid "Account content"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/myaccount/wc-account-content.php:9
+msgid "Display the account content."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/myaccount/wc-account-navigation.php:8
+msgid "Account navigation"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/myaccount/wc-account-navigation.php:9
+msgid "Display the account navigation links."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/shop/wc-shop-product-loop.php:8
+msgid "Shop product loop"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/shop/wc-shop-product-loop.php:9
+msgid "Display the default product loop saved in the Product archive tab."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-customer-details.php:8
+msgid "Thank you customer details"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-customer-details.php:10
+msgid "Displays customer details."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-details-table.php:8
+msgid "Thank you order details"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-details-table.php:10
+msgid "Displays a table of order details."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-details-table.php:27
+msgid "Order details"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-details-table.php:34
+msgid "Total"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-details-table.php:75
+msgid "Note:"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-downloads.php:8
+msgid "Thank you order downloads"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-downloads.php:10
+msgid "Displays order downloads."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-overview.php:8
+msgid "Thank you order overview"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-overview.php:10
+msgid "Displays an overview of the order."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-overview.php:24
+msgid "Order number:"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-overview.php:29
+msgid "Date:"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-overview.php:35
+msgid "Email:"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-overview.php:41
+msgid "Total:"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-overview.php:47
+msgid "Payment method:"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-status.php:8
+msgid "Thank you order status"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-status.php:10
+msgid "Displays order status."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-status.php:17
+msgid "Success"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-status.php:22, addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-status.php:34
+msgid "Message"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-status.php:23
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-status.php:29
+msgid "Failed"
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-status.php:35
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: addons/plugin/woocommerce-templates/templates/thankyou/wc-thankyou-order-status.php:56
+msgid "Pay"
+msgstr ""

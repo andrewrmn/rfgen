@@ -1,0 +1,22 @@
+<li data-post="<?php echo get_the_ID(); ?>" class="col-sm-6 col-md-4 mb-4 <?php if ( get_field('hide_form_list') == true ) { ?> d-none <?php } else { ?> d-block <?php } ?>">
+    <div class="post-items">
+        <a href="<?php the_permalink(); ?>/" rel="bookmark">
+            <div class="embed-responsive embed-responsive-4by3">
+                <div class="full-img">
+                    <?php if (has_post_thumbnail()): ?>
+                        <?php the_post_thumbnail('full'); ?>
+                    <?php else : ?>
+                        <img src="<?php bloginfo('template_directory'); ?>/images/default-image.jpg" alt="<?php the_title(); ?>" />
+                    <?php endif; ?> 
+                </div>
+            </div>
+        </a>
+        <div class="content content-blog coleql_height">
+            <ol>
+                <li><?php echo get_the_date(); ?></li>
+                <?php /* ?><li>4 min read</li><?php */ ?>
+            </ol>
+            <h5><a href="<?php the_permalink(); ?>/" rel="bookmark"><?php the_title(); ?></a></h5>
+        </div>
+    </div>
+</li>

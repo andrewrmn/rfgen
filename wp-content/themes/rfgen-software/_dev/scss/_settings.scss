@@ -1,0 +1,110 @@
+// ---------------------------------------------------------------------
+//  SCSS Settings
+// ---------------------------------------------------------------------
+
+
+// ----------------------------------------
+// Fonts
+// ----------------------------------------
+
+// // 400 | 500
+// $sans-serif: 'neue-haas-grotesk-text', 'Helvetica Neue', sans-serif;
+//
+// // 600
+// $heading: 'neue-haas-grotesk-display', 'Helvetica Neue', serif;
+//
+// $mono: 'input-mono', mono, sans-serif;
+//
+// // 600 | 700
+// $space: 'Space Grotesk', sans-serif;
+//
+// $fa: 'Font Awesome';
+//
+// @mixin font-awesome() {
+//   font-family: $fa;
+//   font-size: inherit;
+//   font-weight: 900;
+// }
+
+// ----------------------------------------
+// Font Size/ Line Height
+// ----------------------------------------
+
+$base-font-size: 16px;
+$base-line-height: 1.5;
+
+
+// ----------------------------------------
+// Colors
+// ----------------------------------------
+
+// blue
+$brand: #16213F;
+$brand-dark: #020D2B;
+
+$gray: #505371;
+
+// green
+$accent: #51D87D;
+$accent-light: #ECF9F4;
+
+$orange: #F0B046;
+
+
+
+$black: #15151D;
+$white: #ffffff;
+
+$gray-dark: #3D3D58;
+$gray-light: #F2F3F6 !important;
+
+$border: #E8E9EC;
+
+
+$gray-light: #F8F9FB;
+
+
+$red: #FF595A;
+$error: $red;
+
+
+// ----------------------------------------
+// Breakpoints
+// ----------------------------------------
+
+$xlarge: 1200px;
+$large: 992px;
+$medium: 768px;
+$small: 544px;
+
+
+@mixin start-at($device-width) {
+  @media (min-width: $device-width) {
+    @content;
+  }
+}
+
+@mixin stop-at($device-width) {
+  @media (max-width: $device-width - 1) {
+    @content;
+  }
+}
+
+
+// ----------------------------------------
+// Global Variables
+// ----------------------------------------
+
+
+$header-breakpoint: 960px;
+
+$transition-speed: 0.4s;
+$transition: $transition-speed ease;
+// cuz I no type good
+$trans: $transition-speed ease;
+
+$bounce: cubic-bezier(0.68,-0.55,0.27,1.55);
+
+$wrapper-percentage: 92%;
+$wrapper-width: 1248px;
+$wrapper-padding: (100% - $wrapper-percentage) / 2;

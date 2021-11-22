@@ -1,0 +1,31 @@
+.mce-container .mce-so-premium-font-selector {
+  max-width: 100%;
+}
+.mce-container .chosen-container {
+  margin-top: 1px;
+  margin-left: 5px;
+}
+.mce-container .chosen-container.chosen-container-single .chosen-single span {
+  line-height: 24px;
+}
+.mce-container .field-wrapper {
+  display: inline-block;
+  margin-left: 5px;
+}
+.mce-container .field-wrapper label {
+  display: none;
+}
+.mce-container .field-wrapper select {
+  height: auto;
+  background-color: #FFFFFF;
+  border: 1px solid #ddd;
+}
+.block-editor .mce-container .chosen-container {
+  position: relative;
+}
+.block-editor .mce-container .chosen-container.chosen-with-drop .chosen-drop {
+  box-sizing: border-box;
+}
+.block-editor .mce-container .chosen-container.chosen-with-drop .chosen-drop .chosen-search {
+  padding: 3px 31px 3px 4px;
+}

@@ -1,0 +1,23 @@
+.so-widget-sow-contact-form .sow-field-container .datepicker-container input {
+  width: 100%;
+}
+.so-widget-sow-contact-form .sow-field-container .datepicker-container.half-width {
+  width: 49%;
+  display: inline-block;
+  float: left;
+}
+.so-widget-sow-contact-form .sow-field-container .timepicker-container input {
+  width: 100%;
+}
+.so-widget-sow-contact-form .sow-field-container .timepicker-container .half-width {
+  width: 49%;
+  display: inline-block;
+  float: right;
+}
+.so-widget-sow-contact-form .sow-field-container .timepicker-container input {
+  width: 100%;
+}
+.so-widget-sow-contact-form .sow-field-container .pika-single {
+  display: inline-block;
+  margin-top: 10px;
+}

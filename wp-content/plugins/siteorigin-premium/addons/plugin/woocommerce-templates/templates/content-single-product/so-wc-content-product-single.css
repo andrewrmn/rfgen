@@ -1,0 +1,8 @@
+.woocommerce div.product div.images,
+.woocommerce-page div.product div.images,
+.woocommerce.single div.product div.images,
+.woocommerce #content div.product div.images,
+.woocommerce-page #content div.product div.images,
+.woocommerce.single #content div.product div.images {
+  width: 100%;
+}

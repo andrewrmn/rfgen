@@ -1,0 +1,235 @@
+// ---------------------------------------------------------------------
+//  Link & Button Styles
+// ---------------------------------------------------------------------
+
+@mixin btn {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 187px;
+  height: 56px;
+  border-radius: 50px;
+  text-align: center;
+  width: auto;
+  background: $accent;
+  color: $brand;
+  border: 1px solid $accent;
+  padding: 13px 28px;
+  z-index: 1;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  transition: background $trans, color $trans, border-color $trans;
+
+  svg,
+  box-icon {
+    display: block;
+    fill: currentColor;
+    margin-left: 8px;
+    transition: transform $trans, fill $trans;
+  }
+
+  svg + span {
+    margin-left: 8px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    color: $accent;
+    background: transparent;
+    border-color: $accent;
+
+    span + svg,
+    span + box-icon {
+      transform: translate3d(3px, 0, 0);
+    }
+  }
+
+  &[disabled] {
+    opacity: 0.2;
+    pointer-events: none;
+  }
+}
+
+.btn {
+  @include btn;
+}
+
+.btn--sm {
+  padding: 13px 16px;
+}
+
+
+.btn--outline {
+  background: transparent;
+  color: $accent;
+  border-color: $accent;
+
+  &:hover {
+    border-color: $accent;
+    background: $accent;
+    color: $brand;
+
+    svg {
+      fill: $brand;
+    }
+  }
+}
+
+.btn--plain {
+  background: transparent;
+  color: $brand;
+  border-color: transparent;
+
+  &:hover {
+    border-color: transparent;
+    background: transparent;
+    color: $brand;
+  }
+}
+
+.hero,
+.bg-black {
+
+  .btn--plain {
+    color: $white;
+  }
+}
+
+.theme-dark .btn,
+.btn--white {
+  background: $white;
+  border-color: $white;
+  color: $black;
+
+  &:hover {
+    background: $brand;
+    border-color: $brand;
+
+    svg,
+    box-icon {
+      fill: $white;
+    }
+  }
+}
+
+// ----------------------------------------
+// Icon link
+// ----------------------------------------
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  svg {
+    transition: transform $trans;
+  }
+
+  span {
+    display: block;
+  }
+
+  span + svg {
+    margin-left: 12px;
+  }
+
+  svg:first-child {
+    margin-right: 12px;
+  }
+}
+
+.icon-link--white {
+  color: $white;
+
+  &:hover {
+    color: rgba($white, 0.8);
+  }
+}
+
+a:hover .icon-link,
+a.icon-link {
+  &:hover {
+
+    span + svg {
+      transform: translate3d(3px, 0, 0);
+    }
+
+    svg:first-child {
+      transform: translate3d(-3px, 0, 0);
+    }
+  }
+}
+
+.icon-link--static {
+  color: $white;
+
+  &:hover {
+    span + svg {
+      transform: translate3d(0, 0, 0) !important;
+    }
+    svg:first-child {
+      transform: translate3d(0, 0, 0) !important;
+    }
+  }
+}
+
+
+// ----------------------------------------
+// Links
+// ----------------------------------------
+
+.rte .link,
+a.link {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 4px;
+  text-decoration: none;
+
+  font-weight: 500;
+  color: $brand;
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: $brand;
+    transform: scaleX(1);
+    transition: transform $trans;
+  }
+
+  &:hover {
+    text-decoration: none;
+    opacity: 1;
+
+    &:after {
+      transform: scaleX(0);
+    }
+  }
+}
+
+// ----------------------------------------
+//
+// ----------------------------------------
+
+.noTouch .tel,
+.noTouch .tel:hover {
+  cursor: text;
+}
+
+
+.download-box {
+
+  .btn.btn-link.btn-block {
+    padding: 8px 16px;
+    min-width: 120px;
+    font-size: 14px;
+    height: 44px;
+  }
+}

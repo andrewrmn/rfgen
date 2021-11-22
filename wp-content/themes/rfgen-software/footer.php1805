@@ -1,0 +1,267 @@
+<?php
+/**
+ * The template for displaying the footer
+ *
+ * Contains the closing of the #content div and all content after.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package WordPress
+ * @subpackage Twenty_Nineteen
+ * @since Twenty Nineteen 1.0
+ */
+?>
+
+</div><!-- #content -->
+
+
+<footer class="site-footer">
+<div class="site-footer-top">
+<div class="container">
+<div class="row no-gutters">
+<div class="col-lg-12 col-xl-12 mb-4"><div class="site-footer-logo"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/new/footer-logo.svg" alt=""></a></div></div>
+
+<div class="col-lg-4 col-xl-3 mb-5">
+<p>This is a space for search engine optimization copy to be used</p>
+<hr>
+<p>Sales: (888) 426-2285<br>
+Support: (888) 426-3472</p>
+</div>
+<div class="col-lg-8 col-xl-8 ml-auto">
+<div class="row">
+<div class="col-md-4">
+<a data-toggle="collapse" href="#collapseMenu-1" role="button" aria-expanded="false" aria-controls="collapseMenu">Company</a>
+<div class="collapse" id="collapseMenu-1">
+<div class="card card-body">
+<ul class="menu">
+<li><a href="#">About</a></li>
+<li><a href="#">Careers</a></li>
+<li><a href="#">Management Team</a></li>
+<li><a href="#">Press</a></li>
+<li><a href="#">Cantact Us</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<a data-toggle="collapse" href="#collapseMenu-2" role="button" aria-expanded="false" aria-controls="collapseMenu">ERP Integration</a>
+<div class="collapse" id="collapseMenu-2">
+<div class="card card-body">
+<ul class="menu">
+<li><a href="#">SAP</a></li>
+<li><a href="#">Oracle SMC Cloud</a></li>
+<li><a href="#">Oracle E-Business Suite</a></li>
+<li><a href="#">Oracle's JD Edwards</a></li>
+<li><a href="#">Deltek Costpoint</a></li>
+<li><a href="#">Microsoft Dynamics 365</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<a data-toggle="collapse" href="#collapseMenu-5" role="button" aria-expanded="false" aria-controls="collapseExample">Contact</a>
+<div class="collapse" id="collapseMenu-5">
+<div class="card card-body">
+<ul class="menu">
+<li><a href="#">Contact Support</a></li>
+<li><a href="#">Contact Sales</a></li>
+<li><a href="#">Request  a Demo</a></li>
+<li><a href="#">General Inquiry</a></li>
+</ul>
+</div>
+</div>
+<ul class="social-links">
+<li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+<li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="site-footer-bottom">
+<div class="container clearfix">
+<div class="copy-text"><p>© 2018-2021 RFgen Software, A Division of the DataMAX Software Group, Inc. All rights reserved.</p></div>
+<div class="footmenu">
+<ul>
+<li><a href="#">Terms</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">CA Privacy</a></li>
+<li><a href="#">Cookies</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+</footer>
+
+<?php /*?><footer class="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-3 footer-logo"><a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
+                        <?php
+                        $image = get_field('footer_logo', 3471);
+                        if (!empty($image)):
+                            ?>
+                            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                        <?php endif; ?>
+                    </a></div>
+                <div class="col-md-6 mb-3 clearfix align-self-center">
+                    <?php if (have_rows('socials', 3471)): ?>
+                        <ul class="social">
+                            <?php while (have_rows('socials', 3471)): the_row(); ?>
+                                <li><a href="<?php the_sub_field('link'); ?>" target="_blank"><?php the_sub_field('icon'); ?></a></li>
+                            <?php endwhile; ?>
+                        </ul>
+                    <?php endif; ?>
+                </div>
+            </div>
+
+            <div class="row">
+                <?php if (is_active_sidebar('footer-1')) : ?>
+                    <div class="col-md-12 col-lg-3 mt-4">
+                        <div class="footer-info">
+                            <?php dynamic_sidebar('footer-1'); ?>
+                        </div>
+                    </div>
+                <?php endif; ?>
+
+                <?php if (is_active_sidebar('footer-2')) : ?>
+                    <div class="col-md-4 col-lg-3 mt-4">
+                        <?php dynamic_sidebar('footer-2'); ?>
+                    </div>
+                <?php endif; ?>
+
+                <?php if (is_active_sidebar('footer-3')) : ?>
+                    <div class="col-md-4 col-lg-3 mt-4">
+                        <?php dynamic_sidebar('footer-3'); ?>
+                    </div>
+                <?php endif; ?>
+
+                <?php if (is_active_sidebar('footer-4')) : ?>
+                    <div class="col-md-4 col-lg-3 mt-4">
+                        <?php dynamic_sidebar('footer-4'); ?>
+                    </div>
+                <?php endif; ?>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container"><?php echo get_field('copyright_text', 3471); ?> </div>
+    </div>
+</footer><?php */?>
+<a href="#" class="back-to-top"><i class="fas fa-angle-up"></i></a>
+
+</div><!-- #page -->
+
+<?php wp_footer(); ?>
+<script>
+jQuery( '.main-menu' ).mobileMegaMenu({
+changeToggleText: true,
+enableWidgetRegion: true,
+prependCloseButton: true,
+stayOnActive: true,
+toogleTextOnClose: 'Close Menu',
+menuToggle: 'main-menu-toggle'
+});
+
+jQuery( '.quick-links' ).mobileMegaMenu({
+changeToggleText: true,
+enableWidgetRegion: true,
+prependCloseButton: true,
+stayOnActive: true,
+toogleTextOnClose: 'Close Quick Links',
+menuToggle: 'quick-links-toggle'
+});
+</script>
+
+<script type="text/javascript">
+jQuery('.counter').countUp();
+jQuery('.coleql_height').matchHeight();
+jQuery(document).ready(function ($) {
+	jQuery('.stellarnav').stellarNav({
+		theme: 'light',
+		breakpoint: 991,
+		position: 'right',
+	});
+	x=10;
+	jQuery('.widget_categories ul:not(.children) > li').each(function(){
+		size_li = jQuery(this).find('li').length;
+		jQuery(this).find('li:lt('+x+')').show();
+		if(size_li > 10){
+			jQuery(this).append('<div class="loadMore">View All</div>');
+		}
+	});
+	jQuery('.loadMore').click(function () {
+		var obj = jQuery(this);
+		obj.closest('li').find('.children li').show();
+		obj.hide();
+	});
+	jQuery('.wishlist-member-login-password a').click(function (e) {
+		e.stopPropagation();
+		jQuery(this).attr('href', 'javascript:void(0)');
+		if(jQuery(this).hasClass('dashicons-visibility')){
+			jQuery('#wlm_form_field_pwd').attr('type', 'text');
+			jQuery(this).removeClass('dashicons-visibility');
+			jQuery(this).addClass('dashicons-hidden');
+		}
+		else{
+			jQuery('#wlm_form_field_pwd').attr('type', 'password');
+			jQuery(this).removeClass('dashicons-hidden');
+			jQuery(this).addClass('dashicons-visibility');
+		}
+		var obj = jQuery(this);
+		obj.closest('li').find('.children li').show();
+		obj.hide();
+	});
+	if(jQuery('.wlm3-form').length){
+		jQuery('.wlm3-form p:last-child').append("<a href='/register' style='float: right;'>Don't have an account?</a>");
+	}
+});
+jQuery(document).ready(function ($) {
+	jQuery(".custom-accordion").accordionjs();
+	if(jQuery("#edit_it").length){
+		jQuery('<li id="wp-admin-bar-edit"><a class="ab-item" href="<?php echo site_url(); ?>/wp-admin/post.php?post='+jQuery("#edit_it").val()+'&action=edit">Edit Page</a></li>').insertAfter('#wp-admin-bar-new-content');
+	}
+});
+jQuery(window).on('scroll', function () {
+	var scroll = $(window).scrollTop();
+	if (scroll < 420) {
+		jQuery(".header-sticky").removeClass("sticky-bar");
+	} else {
+		jQuery(".header-sticky").addClass("sticky-bar");
+	}
+});
+
+jQuery(window).on('scroll', function () {
+	var scroll = $(window).scrollTop();
+	if (scroll < 420) {
+		jQuery(".header-sticky").removeClass("sticky");
+	} else {
+		jQuery(".header-sticky").addClass("sticky");
+	}
+});
+jQuery(document).on('click', '.d-click', function(e){
+    if (!$(e.target).hasClass('dw-fls')) {
+		location.href = jQuery(this).children("a:first").attr('href');
+    }
+});
+jQuery(document).ready(function () {
+	jQuery('#nav').onePageNav();
+});
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+   if ( '1986' == event.detail.contactFormId || '3625' == event.detail.contactFormId ) { 
+    location = 'https://www.rfgen.com/about/schedule-now/success/';
+    }
+}, false );
+</script>
+
+</body>
+</html>

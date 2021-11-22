@@ -1,0 +1,70 @@
+// ---------------------------------------------------------------------
+//
+// ---------------------------------------------------------------------
+
+.post-preview {
+  display: block;
+  color: $black;
+
+  .bg-brand & {
+    color: $white;
+
+    .post-preview__cat {
+      color: $white;
+    }
+  }
+
+  figure {
+    width: 100%;
+    height: 219px;
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 70%;
+
+    img {
+      position: absolute;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .post-preview__cat {
+    color: $gray;
+    font-size: 13px;
+  }
+
+
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 12px 0;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: text-decoration-color $trans;
+
+  }
+
+  .icon-link {
+    font-size: 14px;
+
+    span {
+      text-decoration: underline;
+      text-decoration-color: transparent;
+      transition: text-decoration-color $trans;
+    }
+  }
+
+  &:hover {
+
+    h3, .icon-link span {
+      text-decoration-color: $accent;
+
+    }
+  }
+}
+
+// ----------------------------------------
+//
+// ----------------------------------------

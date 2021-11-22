@@ -1,0 +1,19 @@
+Sitemap: https://www.rfgen.com/sitemap_index.xml
+
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /*/page/
+Disallow: /wp-json/wp/v2/
+Disallow: /wp-json/oembed/
+Disallow: /wp-json/
+Disallow: /customer-center/product-portal/
+Disallow: /blog/voice-picking-use-rising-as-speech-recognition-and-intelligent-assistants-go-mainstream/
+Disallow: /blog/?categoryid=1A0FDEE2-AA5D-46BF-90589A47DCBAFC12
+Disallow: /wp-content/cache/min/1/6b25a3a321f4e7a04f6a03cb0d0a479c.css
+Disallow: /wp-login.php?action=lostpassword
+Disallow: /customer-center/login/
+Disallow: /customer-center/product-portal/
+Disallow: /success/
+Disallow: /about/consulting-services/enterprise-mobility-experts/*/
+Disallow: /about/rfgen-leadership-team/*/

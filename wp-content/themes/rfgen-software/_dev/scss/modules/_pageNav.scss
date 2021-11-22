@@ -1,0 +1,107 @@
+// ---------------------------------------------------------------------
+//
+// ---------------------------------------------------------------------
+
+.page-navigation {
+  background: $white;
+  position: sticky;
+  top: 56px;
+  z-index: 101;
+  border-bottom: 1px solid $gray-light;
+
+  @include stop-at($large) {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  li {
+    margin-right: 24px;
+
+    a {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 100%;
+      color: $gray;
+      transition: text-shadow $trans, color $trans;
+      //text-shadow: 0 0 0 $black;
+
+      &:hover,
+      &.is-active {
+        color: $black;
+        text-shadow: .02em 0px 0px $black;
+      }
+    }
+
+    @include start-at($xlarge) {
+      margin-right: 68px;
+    }
+  }
+
+  .container > a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: right;
+    color: $brand-dark;
+    //color: $accent;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .icon {
+      width: 40px;
+      height: 40px;
+      background: $brand-dark;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+
+      svg {
+        fill: $accent;
+      }
+    }
+    span {
+      display: block;
+      margin: 0 12px 0 0;
+      text-decoration: underline;
+      text-decoration-color: transparent;
+      transition: text-decoration-color $trans;
+    }
+
+    span + svg {
+      transition: transform $trans;
+    }
+
+    &:hover {
+      span {
+        text-decoration-color: $accent;
+      }
+      span + svg {
+        transform: translateX(4px);
+      }
+    }
+  }
+}
+
+
+// ----------------------------------------
+//
+// ----------------------------------------
